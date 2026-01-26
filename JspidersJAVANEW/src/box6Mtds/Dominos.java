@@ -11,4 +11,5 @@ public class Dominos {
 		area(4);
 		area(5);
 	}
+
 }
