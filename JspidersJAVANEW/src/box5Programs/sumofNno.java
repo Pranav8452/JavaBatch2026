@@ -1,4 +1,4 @@
-package box5;
+package box5Programs;
 
 import java.util.Scanner;
 

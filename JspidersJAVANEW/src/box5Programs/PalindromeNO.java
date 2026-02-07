@@ -1,4 +1,4 @@
-package box5;
+package box5Programs;
 
 public class PalindromeNO {
 	public static void main(String[] args) {
