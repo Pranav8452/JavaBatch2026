@@ -22,7 +22,7 @@ class login {
 	}
 
 	void details() {
-		System.out.println(" User Email is " + email + " phone no. is " + phno + "password is " + pass);
+		System.out.println(" User Email is " + email + " phone no. is " + phno + " password is " + pass);
 	}
 
 }
@@ -30,6 +30,7 @@ class login {
 public class Gmail {
 	public static void main(String[] args) {
 		System.out.println("Gmail start");
+
 		login l1 = new login("pranav@gmailcom", 8452);// Object 1
 		l1.details();
 		System.out.println("-------------------");
