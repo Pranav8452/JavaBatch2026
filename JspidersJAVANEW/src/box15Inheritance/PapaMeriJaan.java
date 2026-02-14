@@ -1,4 +1,4 @@
-package box14Encapuslation;
+package box15Inheritance;
 
 class father {
 	void gold() {
