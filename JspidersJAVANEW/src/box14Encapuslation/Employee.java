@@ -4,6 +4,7 @@ public class Employee { // Step-1 public class
 	private int empid; // Step-2 Private Attribute
 	private String name;
 	private double sal;
+
 	// Step-3 PUblic Constructor
 
 	public Employee(int empid, String name, double sal) {
