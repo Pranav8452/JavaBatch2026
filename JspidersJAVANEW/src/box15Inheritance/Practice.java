@@ -2,13 +2,11 @@ package box15Inheritance;
 
 class hw {
 	void info(double b, char ch) {
-		System.out.println(" marks is " + b + " gen is " + ch);
+		System.out.println(" Marks is " + b + " Gen is " + ch);
 	}
-}
 
-class teacher {
 	void info(String str, int no) {
-		System.out.println("student name is " + str + " Roll no is " + no);
+		System.out.println("Student name is " + str + " Roll no is " + no);
 	}
 }
 
@@ -17,7 +15,6 @@ public class Practice {
 		hw h1 = new hw();
 		h1.info(100.0, 'M');
 		System.out.println("---------------------------");
-		teacher t1 = new teacher();
-		t1.info("pranav", 24);
+		h1.info("Don", 100);
 	}
 }
