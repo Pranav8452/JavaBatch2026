@@ -27,7 +27,7 @@ public class FamilyGuy {
 		// f1.study();// CTE
 		// sub class properties are hidden
 
-		System.out.println("_________________________");
+		System.out.println("_____________");
 
 		bhushan b1 = (bhushan) f1;
 		System.out.println(b1.f);// Downcasting

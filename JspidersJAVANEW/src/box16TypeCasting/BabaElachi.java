@@ -1,6 +1,6 @@
 package box16TypeCasting;
 
-//ClassCastException
+//ClassCastException example 2 self
 class baba {
 	void property() {
 		System.out.println("10 acer land");
