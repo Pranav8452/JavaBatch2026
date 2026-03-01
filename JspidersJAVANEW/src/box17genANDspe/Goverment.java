@@ -6,6 +6,7 @@ public class Goverment {
 	void Aadharcard(Person p) {
 
 		System.out.println(p.name + " Will get Aadharcard");
+		System.out.println(p.name + " Update your biomatrics");
 	}
 
 //Specialization Method
@@ -25,4 +26,5 @@ public class Goverment {
 			System.out.println(e.name + " tax dene ki zarurat nahi hya");
 		}
 	}
+
 }
