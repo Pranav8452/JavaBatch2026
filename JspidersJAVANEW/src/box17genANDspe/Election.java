@@ -10,6 +10,7 @@ public class Election {
 		Student s3 = new Student("Sable", 21, 'M', 43, 53.75, "BRHCE");
 		Employee e1 = new Employee("Abhijit", 25, 'M', 800, 50000, "Developer");
 		Employee e2 = new Employee("Saish", 25, 'M', 800, 1200000, "Developer");
+		Employee e3 = new Employee("Shaikh", 19, 'M', 800, 12000, "tester");
 
 		Goverment g1 = new Goverment();
 		g1.Aadharcard(p1);
@@ -27,5 +28,7 @@ public class Election {
 		g1.Aadharcard(p3);
 		System.out.println("***********");
 		g1.Scholrship(s3);
+		System.out.println("*************");
+		g1.TaxPayer(e3);
 	}
 }
