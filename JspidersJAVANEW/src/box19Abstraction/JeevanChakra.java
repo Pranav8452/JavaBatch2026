@@ -8,6 +8,8 @@ abstract class swarg {// abstract class
 
 	abstract void menka();
 
+	abstract void apsara();
+
 	void narad() { // concrete method
 		System.out.println("naryanaaaaaa....... naryanaa.....");
 	}
@@ -29,6 +31,12 @@ abstract class indra extends swarg { // concrete class
 class sunil extends indra {
 	void menka() {
 		System.out.println("menka ka Dance...........");
+	}
+}
+
+class pranav extends sunil {
+	void apsara() {
+		System.out.println("Apsara dancer of swarga..........");
 	}
 }
 
