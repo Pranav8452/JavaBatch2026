@@ -5,7 +5,7 @@ public class PalindromeNO {
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("Enter a no for rev & palin :");
 //		int n = sc.nextInt();
-		int num = 121;
+		int num = 12521;
 		int temp = num;
 		int rev = 0;
 
@@ -14,7 +14,7 @@ public class PalindromeNO {
 			rev = (rev * 10) + rem;
 			num = num / 10;
 		}
-		System.out.println("Reverse is " + rev);
+//		System.out.println("Reverse is " + rev);
 
 		if (temp == rev) {
 			System.out.println(temp + " is palindrome");
