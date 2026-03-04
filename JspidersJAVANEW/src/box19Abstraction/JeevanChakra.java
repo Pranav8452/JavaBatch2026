@@ -29,23 +29,26 @@ abstract class indra extends swarg { // concrete class
 }
 
 class sunil extends indra {
+	@Override
 	void menka() {
 		System.out.println("menka ka Dance...........");
 	}
-}
 
-class pranav extends sunil {
+	@Override
 	void apsara() {
-		System.out.println("Apsara dancer of swarga..........");
+		System.out.println("Apsara the dancer....");
+
 	}
+
 }
 
 public class JeevanChakra {
 	public static void main(String[] args) {
 		swarg s1 = new sunil();
 		s1.rambha();
-		s1.rambha();
 		s1.urvashi();
+		s1.menka();
+		s1.apsara();
 	}
 
 }
