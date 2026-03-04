@@ -5,6 +5,8 @@ abstract class Gajni { // Abstract class
 }
 
 class toxic { // Concrete class
+	// abstract void kill();//CTE
+	// Abstract method are not allowed in concrete class
 	void sing() {// Concrete method
 		System.out.println("Singing.....");
 	}
@@ -15,5 +17,7 @@ public class Gautamipatil {
 
 		toxic t1 = new toxic();
 		t1.sing();
+		// Gajni g1 = new Gajni(); //CTE
+		// We cannot create object of abstract class
 	}
 }
