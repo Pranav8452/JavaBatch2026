@@ -36,7 +36,7 @@ public class JeevanChakra {
 	public static void main(String[] args) {
 		swarg s1 = new sunil();
 		s1.rambha();
-//		s1.rambha();
+		s1.rambha();
 //		s1.urvashi();
 	}
 
