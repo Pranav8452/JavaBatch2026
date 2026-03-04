@@ -37,7 +37,7 @@ public class JeevanChakra {
 		swarg s1 = new sunil();
 		s1.rambha();
 		s1.rambha();
-//		s1.urvashi();
+		s1.urvashi();
 	}
 
 }
