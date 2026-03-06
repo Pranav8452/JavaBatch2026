@@ -42,19 +42,21 @@ class siddhi extends pushparaj implements jay, Bhushan, Amit {
 
 public class Birthdayparty {
 	public static void main(String[] args) {
+		// interfce //class
 		jay j1 = new siddhi();// upcasting
 		j1.love();
 		j1.party();
 		System.out.println("-------------------");
+		// interfce //class
 		pushparaj p1 = new siddhi();// upcasting
 		p1.banglow();
 		p1.gold();
 		System.out.println("--------------------");
-		Bhushan b1 = new siddhi();
+		Bhushan b1 = new siddhi();// upcasting
 		b1.party();
 		b1.love();
 		System.out.println("----------------");
-		siddhi s1 = new siddhi();
+		siddhi s1 = new siddhi();// object
 		s1.love();
 		s1.banglow();
 		s1.love();
