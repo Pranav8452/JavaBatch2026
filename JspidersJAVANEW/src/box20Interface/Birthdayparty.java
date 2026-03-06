@@ -44,5 +44,16 @@ public class Birthdayparty {
 	public static void main(String[] args) {
 		jay j1 = new siddhi();// upcasting
 		j1.love();
+		j1.party();
+		System.out.println("-------------------");
+		pushparaj p1 = new siddhi();// upcasting
+		p1.banglow();
+		p1.gold();
+		System.out.println("----------------");
+		siddhi s1 = new siddhi();
+		s1.love();
+		s1.banglow();
+		s1.love();
+		s1.party();
 	}
 }
