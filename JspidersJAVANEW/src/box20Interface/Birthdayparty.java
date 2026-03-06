@@ -49,6 +49,10 @@ public class Birthdayparty {
 		pushparaj p1 = new siddhi();// upcasting
 		p1.banglow();
 		p1.gold();
+		System.out.println("--------------------");
+		Bhushan b1 = new siddhi();
+		b1.party();
+		b1.love();
 		System.out.println("----------------");
 		siddhi s1 = new siddhi();
 		s1.love();
