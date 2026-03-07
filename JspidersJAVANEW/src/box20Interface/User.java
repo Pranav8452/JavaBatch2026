@@ -10,7 +10,10 @@ public class User {
 
 		System.out.println("******************");
 		ATM2 u2 = new SBIBank();
-		u1.checkBal();
-
+		u2.checkBal();
+		u2.withdraw(500);
+		u2.deposit(1500);
+		u2.withdraw(500);
+		u2.checkBal();
 	}
 }
