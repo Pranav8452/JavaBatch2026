@@ -10,7 +10,7 @@ public class User {
 
 		System.out.println("******************");
 
-		ATM2 u2 = new SBIBank();
+		ATM2 u2 = new SBIBank();// upcasting
 		u2.checkBal();
 		u2.withdraw(500);
 		u2.deposit(1500);
@@ -19,7 +19,7 @@ public class User {
 
 		System.out.println("========================");
 
-		ATM2 u3 = new SBIBank();
+		ATM2 u3 = new SBIBank();// upcasting
 		u3.checkBal();
 		u3.withdraw(500);
 		u3.deposit(1500);
