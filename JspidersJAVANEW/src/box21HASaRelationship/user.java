@@ -41,5 +41,6 @@ public class user {
 		m1.games();
 		m1.games(100);
 		mobile.b1.capacity(1, 2);// Call method Overloaded
+		m1.b1.capacity(100);
 	}
 }
