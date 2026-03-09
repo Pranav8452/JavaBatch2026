@@ -26,6 +26,10 @@ public class user {
 	public static void main(String[] args) {
 		mobile m1 = new mobile();
 		System.out.println(m1.b1.x);// call variable
-		m1.b1.capacity();
+		m1.b1.capacity();// Call method
+		mobile.b1.capacity(51);// Call method Overloaded
+		System.out.println("----------------------");
+		System.out.println(m1.a);
+		m1.games();
 	}
 }
