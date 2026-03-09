@@ -11,6 +11,10 @@ class battery {
 	void capacity(int a) {
 		System.out.println("Colling System...");
 	}
+
+	void capacity(int a, int b) {
+		System.out.println("Extra Colling.....");
+	}
 }
 
 class mobile {
@@ -19,6 +23,10 @@ class mobile {
 
 	void games() {
 		System.out.println("Shadow Fight,Mini Millatia");
+	}
+
+	void games(int a) {
+		System.out.println("Only Cricket");
 	}
 }
 
@@ -31,5 +39,7 @@ public class user {
 		System.out.println("----------------------");
 		System.out.println(m1.a);
 		m1.games();
+		m1.games(100);
+		mobile.b1.capacity(1, 2);// Call method Overloaded
 	}
 }
