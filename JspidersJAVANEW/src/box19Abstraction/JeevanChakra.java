@@ -15,7 +15,7 @@ abstract class swarg {// abstract class
 	}
 }
 
-abstract class indra extends swarg { // concrete class
+abstract class indra extends swarg {
 	@Override
 	void rambha() {
 		System.out.println("Rambha ka Dance...........");

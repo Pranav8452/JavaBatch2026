@@ -7,7 +7,6 @@ public class Student { // Step-1 Public class
 	private double cgpa;
 
 	// Step-3 public Constructor
-
 	public Student(String name, int rollno, double cgpa) {
 		this.name = name;
 		this.rollno = rollno;
