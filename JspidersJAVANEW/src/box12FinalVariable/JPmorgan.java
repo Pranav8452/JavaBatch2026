@@ -26,11 +26,11 @@ class employee {
 
 public class JPmorgan {
 	public static void main(String[] args) {
-		employee e1 = new employee("pranav", 80000);
+		employee e1 = new employee("pranv", 80000);
 		employee e2 = new employee("saras", 85000);
 		employee e3 = new employee("surve", 90000);
 		employee e4 = new employee("singh", 50000);
-		employee e5 = new employee("siddhant", 100000);
+		employee e5 = new employee("sidhu", 100000);
 		employee e6 = new employee("saish", 40000);
 		employee e7 = new employee("sahil", 300000);
 		employee e8 = new employee("omkar", 60000);
